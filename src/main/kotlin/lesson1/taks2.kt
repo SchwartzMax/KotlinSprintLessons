@@ -1,6 +1,6 @@
 package org.example.lesson1
 
-fun main(){
+fun main() {
     val numberOfOrders: Int = 75
     val ThanksForAThePurchase = "Спасибо за покупку!"
     println("Колличество заказов = $numberOfOrders")
@@ -10,5 +10,5 @@ fun main(){
 //    println("Колличество работников = $numberOfEmployees")
 
     numberOfEmployees = 1999
-    println("Колличество работников = $numberOfEmployees") // один работник уволился
+    println("Колличество работников = $numberOfEmployees")
 }
