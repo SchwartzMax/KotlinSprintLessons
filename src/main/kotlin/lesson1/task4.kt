@@ -8,6 +8,7 @@ fun main() {
     val partOfTheYear: Float = 2.0547945205479453E-4F
     val apogeeOfTheOrbit: Int = 327000
 
+
     println(distance)
     println(age)
     println(partOfTheDay)
