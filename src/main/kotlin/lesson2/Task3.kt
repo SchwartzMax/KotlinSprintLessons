@@ -1,4 +1,4 @@
-package lesson3
+package lesson2
 const val minutes: Int = 60
 
 fun main() {
@@ -7,11 +7,11 @@ fun main() {
     val onTheWay = 457
 
 
-    var hourFinish = hourStart + (onTheWay /minutes)
+    var hourFinish = hourStart + (onTheWay / minutes)
     var minuteFinish = minuteStart + (minuteStart % minutes )
 
     var result1 = hourFinish+1
-    var result2 = minuteFinish-minutes
+    var result2 = minuteFinish- minutes
 
     println("Время прибытия $result1:$result2")
 }
