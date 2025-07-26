@@ -5,7 +5,9 @@ fun main() {
     val iron = 11
 
     val procent:Float = 20/100f
+    val cristalProcent = cristal * procent
+    val ironProcent = iron * procent
 
-    println("Количество бонусных кристалов: ${((cristal * procent)).toInt()}")
-    println("Количество бонусного металла: ${((iron * procent)).toInt()}")
+    println("Количество бонусных кристалов: ${(cristalProcent).toInt()}")
+    println("Количество бонусного металла: ${(ironProcent).toInt()}")
 }
