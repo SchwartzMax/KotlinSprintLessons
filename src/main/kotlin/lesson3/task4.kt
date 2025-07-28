@@ -1,19 +1,15 @@
 package lesson3
 
 fun main() {
-    var aMoveFromWhere = " "
-    var goingWhere = " "
-    var strokeNumber = " "
+    var fromSquare = "E2"
+    var toSquare = "E4"
+    var strokeNumber = "2"
 
-    aMoveFromWhere = "E2"
-    goingWhere = "E3"
-    strokeNumber = "2"
+    println("$fromSquare-$toSquare; $strokeNumber")
 
-    println("Ход Черных $aMoveFromWhere на $goingWhere; $strokeNumber")
-
-    aMoveFromWhere = "D2"
-    goingWhere = "D3"
+    fromSquare = "D2"
+    toSquare = "D3"
     strokeNumber = "3"
 
-    println("Ход Белых $aMoveFromWhere на $goingWhere; $strokeNumber")
+    println("$fromSquare-$toSquare; $strokeNumber")
 }
