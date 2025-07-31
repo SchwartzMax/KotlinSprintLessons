@@ -11,6 +11,6 @@ fun main() {
     val cargoWeight2 = 50
     val cargoVolumes2 = 100
 
-    println("Груз-1: Average: ${(MIN_WEIGHT < cargoWeight1 && MAX_WEIGHT >= cargoWeight1) && (cargoVolumes1 < VOLUMES)}")
-    println("Груз-2: Average: ${(MIN_WEIGHT < cargoWeight2 && MAX_WEIGHT >= cargoWeight2) && (cargoVolumes2 < VOLUMES)}")
+    println("Груз-1: Average: ${(cargoWeight1<MIN_WEIGHT && cargoWeight1 <=MAX_WEIGHT) && (cargoVolumes1 < VOLUMES)}")
+    println("Груз-2: Average: ${(cargoWeight2<MIN_WEIGHT && cargoWeight2 <=MAX_WEIGHT) && (cargoVolumes2 < VOLUMES)}")
 }
